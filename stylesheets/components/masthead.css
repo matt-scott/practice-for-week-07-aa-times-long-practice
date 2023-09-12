@@ -65,6 +65,12 @@
     border-top: 1px solid lightgray;
 }
 
+.masthead__paper-text {
+    margin-left: 3px;
+    position: relative;
+    top: 2px;
+}
+
 .masthead__technologies {
     grid-area: masthead__technologies;
     display: flex;

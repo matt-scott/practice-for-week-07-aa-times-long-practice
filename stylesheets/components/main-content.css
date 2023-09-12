@@ -1,1 +1,121 @@
-/* Your code here */
+.article-attribute {
+    color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 0;
+}
+
+.article-list {
+
+}
+
+.comments {
+    color:cornflowerblue;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.header-main {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 28px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.main-content__article {
+    margin: 5px 5px;
+}
+
+.main-content__article > h2 {
+    font-weight: bold;
+}
+
+.main-content__article > p,
+.main-content__article > ul {
+    font-size: 12px;
+}
+
+.main-content__article > ul {
+    list-style-type: disc;
+    list-style-position: inside; 
+}
+
+#bottom-media__article-left {
+    border-right: 1px solid lightgray;
+    padding-bottom: 40px;
+}
+
+.main-content__bottom-media {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.main-content__center-media {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 40px
+}
+
+.main-content__left {
+    padding-right: 10px;
+    border-right: 1px solid lightgray;
+}
+
+.main-content__mini-articles {
+    /* border-top: 1px solid lightgray; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.main-content__mini-articles-left {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid lightgray;
+}
+
+.main-content__mini-articles-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content__mini-articles .main-content__article {
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.main-content__right {
+}
+
+.main-content__right > .main-content__article {
+    border-bottom: 1px solid lightgray;
+}
+
+.main-content__right-article-h2-middle {
+    padding: 15px 0;
+}
+
+.main-content__right-article-h2-top {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.main-content__top-article-h2 {
+    font-style: italic;
+    padding-bottom: 15px;
+}
+
+.main-content__top-level-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 10px;
+    column-gap: 10px;
+}
+
+.right-article-image {
+    padding: 10px 0;
+    height: 80px;
+    object-fit: cover;
+}
